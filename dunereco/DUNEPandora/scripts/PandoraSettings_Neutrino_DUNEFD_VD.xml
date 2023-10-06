@@ -41,6 +41,15 @@
 
     <!-- TwoDReconstruction -->
     <algorithm type = "LArClusteringParent">
+        <algorithm type = "LArTrackClusterCreation" description = "ClusterFormation">
+            <MinMipFraction>0.3</MinMipFraction>
+        </algorithm>
+        <InputCaloHitListName>CaloHitListU</InputCaloHitListName>
+        <ClusterListName>ClustersU</ClusterListName>
+        <ReplaceCurrentCaloHitList>true</ReplaceCurrentCaloHitList>
+        <ReplaceCurrentClusterList>true</ReplaceCurrentClusterList>
+    </algorithm>
+    <algorithm type = "LArClusteringParent">
         <algorithm type = "LArTrackClusterCreation" description = "ClusterFormation"/>
         <InputCaloHitListName>CaloHitListU</InputCaloHitListName>
         <ClusterListName>ClustersU</ClusterListName>
@@ -63,6 +72,15 @@
     <algorithm type = "LArHitWidthClusterMerging"/>
 
     <algorithm type = "LArClusteringParent">
+        <algorithm type = "LArTrackClusterCreation" description = "ClusterFormation">
+            <MinMipFraction>0.3</MinMipFraction>
+        </algorithm>
+        <InputCaloHitListName>CaloHitListV</InputCaloHitListName>
+        <ClusterListName>ClustersV</ClusterListName>
+        <ReplaceCurrentCaloHitList>true</ReplaceCurrentCaloHitList>
+        <ReplaceCurrentClusterList>true</ReplaceCurrentClusterList>
+    </algorithm>
+    <algorithm type = "LArClusteringParent">
         <algorithm type = "LArTrackClusterCreation" description = "ClusterFormation"/>
         <InputCaloHitListName>CaloHitListV</InputCaloHitListName>
         <ClusterListName>ClustersV</ClusterListName>
@@ -84,6 +102,15 @@
     </algorithm>
     <algorithm type = "LArHitWidthClusterMerging"/>
 
+    <algorithm type = "LArClusteringParent">
+        <algorithm type = "LArTrackClusterCreation" description = "ClusterFormation">
+            <MinMipFraction>0.3</MinMipFraction>
+        </algorithm>
+        <InputCaloHitListName>CaloHitListW</InputCaloHitListName>
+        <ClusterListName>ClustersW</ClusterListName>
+        <ReplaceCurrentCaloHitList>true</ReplaceCurrentCaloHitList>
+        <ReplaceCurrentClusterList>true</ReplaceCurrentClusterList>
+    </algorithm>
     <algorithm type = "LArClusteringParent">
         <algorithm type = "LArTrackClusterCreation" description = "ClusterFormation"/>
         <InputCaloHitListName>CaloHitListW</InputCaloHitListName>
