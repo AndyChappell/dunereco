@@ -496,10 +496,10 @@
         <MCParticleListName>Input</MCParticleListName>
         <CaloHitListName>CaloHitList2D</CaloHitListName>
         <UseThreeDInformation>true</UseThreeDInformation>
-        <MvaFileName>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_HD_v04_06_00.xml</MvaFileName>
-        <MvaName>PreHierarchy</MvaName>
-        <MvaFileNameNoChargeInfo>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_HD_v04_06_00.xml</MvaFileNameNoChargeInfo>
-        <MvaNameNoChargeInfo>PreHierarchy_NoChargeInfo</MvaNameNoChargeInfo>
+        <MvaFileName>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_v03_26_00.xml</MvaFileName>
+        <MvaName>PfoCharacterisation</MvaName>
+        <MvaFileNameNoChargeInfo>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_v03_26_00.xml</MvaFileNameNoChargeInfo>
+        <MvaNameNoChargeInfo>PfoCharacterisationNoChargeInfo</MvaNameNoChargeInfo>
         <TrainingSetMode>false</TrainingSetMode>
         <TrainingOutputFileName>training_output</TrainingOutputFileName>
         <PersistFeatures>true</PersistFeatures>
@@ -609,10 +609,10 @@
         <MCParticleListName>Input</MCParticleListName>
         <CaloHitListName>CaloHitList2D</CaloHitListName>
         <UseThreeDInformation>true</UseThreeDInformation>
-        <MvaFileName>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_HD_v04_06_00.xml</MvaFileName>
-        <MvaName>PostHierarchy</MvaName>
-        <MvaFileNameNoChargeInfo>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_HD_v04_06_00.xml</MvaFileNameNoChargeInfo>
-        <MvaNameNoChargeInfo>PostHierarchy_NoChargeInfo</MvaNameNoChargeInfo>
+        <MvaFileName>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_v03_26_00.xml</MvaFileName>
+        <MvaName>PfoCharacterisation</MvaName>
+        <MvaFileNameNoChargeInfo>PandoraMVAData/PandoraBdt_PfoCharacterisation_DUNEFD_v03_26_00.xml</MvaFileNameNoChargeInfo>
+        <MvaNameNoChargeInfo>PfoCharacterisationNoChargeInfo</MvaNameNoChargeInfo>
         <TrainingSetMode>false</TrainingSetMode>
         <TrainingOutputFileName>training_output</TrainingOutputFileName>
         <PersistFeatures>true</PersistFeatures>
