@@ -7,6 +7,8 @@ dune_pandora:
     module_type:                                                    "StandardPandora"
     GeantModuleLabel:                                               "largeant"
     HitFinderModuleLabel:                                           "linecluster"
+    OpHitFinderModuleLabel:                                         "ophitspe"
+    EnableOpHits:                                                   false
     EnableMCParticles:                                              false
     EnableProduction:                                               true
     EnableLineGaps:                                                 true
