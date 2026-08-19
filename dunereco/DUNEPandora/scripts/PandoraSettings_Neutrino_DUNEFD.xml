@@ -9,9 +9,11 @@
         <OutputCaloHitListNameU>CaloHitListU</OutputCaloHitListNameU>
         <OutputCaloHitListNameV>CaloHitListV</OutputCaloHitListNameV>
         <OutputCaloHitListNameW>CaloHitListW</OutputCaloHitListNameW>
+        <OutputCaloHitListNameOp>OpticalHitList</OutputCaloHitListNameOp>
         <FilteredCaloHitListName>CaloHitList2D</FilteredCaloHitListName>
         <CurrentCaloHitListReplacement>CaloHitList2D</CurrentCaloHitListReplacement>
     </algorithm>
+    <algorithm type  = "LArOpHitMonitoring" />
 
     <algorithm type = "LArDLVertexing">
         <TrainingMode>false</TrainingMode>

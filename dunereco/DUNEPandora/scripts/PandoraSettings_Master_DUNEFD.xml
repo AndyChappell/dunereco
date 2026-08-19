@@ -9,9 +9,11 @@
         <OutputCaloHitListNameU>CaloHitListU</OutputCaloHitListNameU>
         <OutputCaloHitListNameV>CaloHitListV</OutputCaloHitListNameV>
         <OutputCaloHitListNameW>CaloHitListW</OutputCaloHitListNameW>
+        <OutputCaloHitListNameOp>OpticalHitList</OutputCaloHitListNameOp>
         <FilteredCaloHitListName>CaloHitList2D</FilteredCaloHitListName>
         <CurrentCaloHitListReplacement>CaloHitList2D</CurrentCaloHitListReplacement>
     </algorithm>
+    <algorithm type  = "LArOpHitMonitoring" />
     <algorithm type = "LArVisualMonitoring">
         <CaloHitListNames>CaloHitListU CaloHitListV CaloHitListW</CaloHitListNames>
         <ShowDetector>true</ShowDetector>
@@ -32,6 +34,7 @@
             <tool type = "LArSimpleNeutrinoId"/>
         </SliceIdTools>
         <InputHitListName>CaloHitList2D</InputHitListName>
+        <InputOpHitListName>OpticalHitList</InputOpHitListName>
         <InputMCParticleListName>Input</InputMCParticleListName>
         <PassMCParticlesToWorkerInstances>false</PassMCParticlesToWorkerInstances>
         <RecreatedPfoListName>RecreatedPfos</RecreatedPfoListName>
